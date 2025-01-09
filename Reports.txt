@@ -1,0 +1,22 @@
+## Some Runtime Stats:
+
+# Without local aggregation (8 Mappers):
+▪ Number of Map Output Records was: 56,963,480.
+▪ Number of Reduce Input Records: 56,963,480.
+▪ Time Elapsed: 26 minutes, 33 seconds.
+
+# With local aggregation - Combiner1 (8 Mappers):
+▪ Number of Map Output Records was: 56,963,480.
+▪ Number of Reduce Input Records: 812,839.
+▪ Time Elapsed: 24 min 29 sec.
+* We can see that local aggregation saved a ton of data communication between the Hadoop nodes,
+* Yet the time did not improve drastically - __Amdahl's Law__ - local aggregation was needed and used only at step 1.
+
+# With local aggregation - Combiner1 (5 Mappers):
+▪ Number of Map Output Records was: 56,963,480.
+▪ Number of Reduce Input Records: 812,839.
+▪ Time Elapsed: 34 min 6 sec.
+
+
+Name: Guy Yehoshua
+Id: 326529229
