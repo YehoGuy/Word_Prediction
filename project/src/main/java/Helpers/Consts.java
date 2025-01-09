@@ -3,6 +3,7 @@ package Helpers;
 public class Consts {
 	public static final String STAR = "*";
 	public static final String STEP1_JAR = "s3://guyss3bucketfordistributedsystems/jars/Step1.jar";
+	public static final String STEP1N_JAR = "s3://guyss3bucketfordistributedsystems/jars/Step1n.jar";
 	public static final String STEP2_JAR = "s3://guyss3bucketfordistributedsystems/jars/Step2.jar";
 	public static final String STEP3_JAR = "s3://guyss3bucketfordistributedsystems/jars/Step3.jar";
 	public static final String STEP4_JAR = "s3://guyss3bucketfordistributedsystems/jars/Step4.jar";
